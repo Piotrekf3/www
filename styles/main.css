@@ -3,18 +3,36 @@
     justify-content: space-evenly;
 }
 
-.navbar .navbar-brand {
+.navbar a {
     font-size: 2.5rem;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.navbar a:hover {
+    color: #E9974A;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: white;
+}
+
+.navbar a::after {
+    content: none;
+}
+
+.nav-link.active, .dropdown-item.active {
+    color: #c0a467;
 }
 
 html, body {
     height: 100%;
-    background-image: linear-gradient(to bottom,#e1f2ff,#fff);
+    background-image: linear-gradient(to bottom,#badffc,#fff);
 }
 
 .main-title {
     font-size: 4rem;
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 footer {

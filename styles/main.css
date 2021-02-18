@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar .navbar-brand {
+    font-size: 2.5rem;
+}
+
+html, body {
+    height: 100%;
+    background-image: linear-gradient(to bottom,#e1f2ff,#fff);
+}
+
+.main-title {
+    font-size: 4rem;
+    padding-top: 20px;
+}
+
+footer {
+    font-size: 2.5rem;
+    color: white;
+}

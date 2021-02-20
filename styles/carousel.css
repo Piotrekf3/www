@@ -8,6 +8,12 @@
     filter: invert(100%);
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
 .carousel-caption {
     color: #E9974A;
     background-color: rgba(255, 255, 255, 0.7);

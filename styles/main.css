@@ -9,6 +9,10 @@
     color: white;
 }
 
+.navbar.fixed-bottom a {
+    font-size: 1rem;
+}
+
 .navbar a:hover {
     color: #E9974A;
 }
